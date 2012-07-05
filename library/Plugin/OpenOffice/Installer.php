@@ -27,6 +27,7 @@ PHP
     private static function directions() {
         return array(
             array(ContentType::odt(), 'ContentType::doc()'),
+            array(ContentType::odt(), 'ContentType::pdf()'),
             array(ContentType::ots(), 'ContentType::xls()'),
             array(ContentType::ods(), 'ContentType::xls()'),
             array(ContentType::ott(), 'ContentType::doc()'),
